@@ -13,6 +13,7 @@ import javax.swing.table.DefaultTableModel;
 //El alnair parece gnomo
 //Hago EloBoost baratito a platino ;) 100% garantizado
 //cuanto cobras si estoy en bronce 1?
+//Ufff, está dificil, quedan como 2 semanas de season
 
 public class Tablas extends JFrame{
     JPanel panel1;
