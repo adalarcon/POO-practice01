@@ -10,15 +10,17 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.table.DefaultTableModel;
-
+//El alnair parece gnomo
 public class Tablas extends JFrame{
     JPanel panel1;
     public Tablas(){
-        setSize(500,500);
-        //Cambie el titulo 
+        //Cambie el tamaño
+        setSize(300,300);
+        //Cambie el titulo
         setTitle("EL titulo mas perron del mundo para una tabla");
         setLocationRelativeTo(null);
         iniciarComponentes1();
+
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
     private void iniciarComponentes1(){
@@ -26,7 +28,7 @@ public class Tablas extends JFrame{
         colocarTablas();
     }
     private void colocarPaneles1(){
-        
+
         this.panel1=new JPanel();
         this.panel1.setLayout(null);
         this.getContentPane().add(this.panel1);
@@ -60,8 +62,8 @@ public class Tablas extends JFrame{
         modelo.addRow(persona10);
         modelo.addRow(persona11);
         modelo.addRow(persona12);
-        
-        
+
+
         JTable tabla=new JTable(modelo);
         tabla.setBounds(20, 20, 200, 200);
         panel1.add(tabla);
