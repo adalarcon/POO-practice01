@@ -16,7 +16,7 @@ public class MainPerron {
         Tablas tabla=new Tablas();
         ElBotonaso boton =new ElBotonaso();
         VentanasComboBox ejerComboBox=new VentanasComboBox();
-        
+
         //ey que pedo cachorros como estan
 
         Scanner entrada=new Scanner(System.in);
@@ -40,7 +40,7 @@ public class MainPerron {
                 JOptionPane.showConfirmDialog(v1, "El problema o lo que le querramos decir al usuario","el titulo ps que mas",JOptionPane.YES_NO_CANCEL_OPTION);
                 break;
             case 3:
-                System.out.println("HTML"); 
+                System.out.println("HTML");
                break;
             case 4:
                 v2.setVisible(true);
@@ -58,12 +58,12 @@ public class MainPerron {
                 JPanel panel3;
                 JFrame f;
                 JSlider b;
-                f = new JFrame("frame"); 
-                JPanel p = new JPanel(); 
-                b = new JSlider(); 
-                p.add(b); 
+                f = new JFrame("frame");
+                JPanel p = new JPanel();
+                b = new JSlider();
+                p.add(b);
                 f.add(p);
-                f.setSize(300, 300); 
+                f.setSize(300, 300);
                 f.setVisible(true);
                 break;
             case 9:
