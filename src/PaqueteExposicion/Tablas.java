@@ -10,7 +10,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.table.DefaultTableModel;
-
+//El alnair parece gigante
 public class Tablas extends JFrame{
     JPanel panel1;
     public Tablas(){
@@ -28,7 +28,7 @@ public class Tablas extends JFrame{
         colocarTablas();
     }
     private void colocarPaneles1(){
-        
+
         this.panel1=new JPanel();
         this.panel1.setLayout(null);
         this.getContentPane().add(this.panel1);
@@ -62,8 +62,8 @@ public class Tablas extends JFrame{
         modelo.addRow(persona10);
         modelo.addRow(persona11);
         modelo.addRow(persona12);
-        
-        
+
+
         JTable tabla=new JTable(modelo);
         tabla.setBounds(20, 20, 200, 200);
         panel1.add(tabla);
