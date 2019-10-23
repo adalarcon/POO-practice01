@@ -7,9 +7,15 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 //hola
-//Como estas?
+//Como estas? pdosofs
+//esto parece una org*a de codigo :(
+//oye no seas grosero
 
 public class ElBotonaso extends JFrame {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     JPanel panel;
     public ElBotonaso(){
         setSize(500,500);
@@ -33,7 +39,6 @@ public class ElBotonaso extends JFrame {
        botonazo.setText("Cambio"); //metodo setter del texto del boton
        //botonazo.setEnabled(false); //Habilitar y/o deshabilitar las funciones del boton
        botonazo.setBounds(100, 100, 100, 40);//Los primeros 2 parametros son la posicion en "x" y "y" y los otros dos son el largo y ancho del boton
-
 
 
        panel.add(botonazo);
