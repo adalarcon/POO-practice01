@@ -16,7 +16,7 @@ import javax.swing.table.DefaultTableModel;
 public class Tablas extends JFrame{
     JPanel panel1;
     public Tablas(){
-        setSize(500,500);
+        setSize(200,200);
         setTitle("EL titulo perron que le vas a poner a tu ventana");
         setLocationRelativeTo(null);
         iniciarComponentes1();
