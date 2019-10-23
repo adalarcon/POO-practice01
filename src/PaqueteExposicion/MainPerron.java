@@ -11,6 +11,7 @@ import layoutypanel.*;
 
 public class MainPerron {
     public static void main(String[] args) {
+        
         Ventana v1=new Ventana();
         VentanaLabel v2=new VentanaLabel();
         VentanaListas v3=new VentanaListas();
@@ -30,7 +31,8 @@ public class MainPerron {
         //ey que pedo cachorros como estan
 
         Scanner entrada=new Scanner(System.in);
-        int opc;
+        int opc = 0;
+        do{
         System.out.println("1) iniciar un Frame");
         System.out.println("2) mostrar un Dialog");
         System.out.println("3) Mostrar Applet(o no :0)");
@@ -124,9 +126,9 @@ public class MainPerron {
             default:
                 System.out.println("Numero no reconocido");
         }
+      }
+      while (opc != 20);  //minecra es vida, chiquitas
     }
-    //minecra es vida, chiquitas
 }
-
 
 //WOOOW
