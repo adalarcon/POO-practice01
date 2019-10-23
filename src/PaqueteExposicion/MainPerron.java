@@ -62,12 +62,12 @@ public class MainPerron {
                 p.add(b); 
                 f.add(p);
                 f.setSize(300, 300); 
-                f.show();
+                f.setVisible(true);
                 break;
             case 9:
                 boton.setVisible(true);
                 break;
         }
     }
-    
+    //minecra es vida, chiquitas
 }
