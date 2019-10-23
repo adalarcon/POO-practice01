@@ -1,7 +1,7 @@
 
 package PaqueteExposicion;
 
-
+//Soy Esteben
 import javax.swing.DefaultListModel;
 import javax.swing.JFrame;
 import javax.swing.JList;
@@ -10,14 +10,16 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.table.DefaultTableModel;
-//El alnair parece gigante
+//El alnair parece gnomo
 
 public class Tablas extends JFrame{
     JPanel panel1;
     public Tablas(){
         //Cambie el tamaño
+
         setSize(450,350);
         //Cambie el titulo 
+
         setTitle("EL titulo mas perron del mundo para una tabla");
         setLocationRelativeTo(null);
         iniciarComponentes1();
