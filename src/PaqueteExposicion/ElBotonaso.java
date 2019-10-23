@@ -41,7 +41,6 @@ public class ElBotonaso extends JFrame {
        botonazo.setBounds(100, 100, 100, 40);//Los primeros 2 parametros son la posicion en "x" y "y" y los otros dos son el largo y ancho del boton
 
 
-
        panel.add(botonazo);
     }
 }
