@@ -5,7 +5,7 @@ import javax.swing.DefaultListModel;
 import javax.swing.JFrame;
 import javax.swing.JList;
 import javax.swing.JPanel;
-
+//Jaja
 public class VentanaListas extends JFrame{
     JPanel panel1;
     public VentanaListas(){
@@ -15,14 +15,14 @@ public class VentanaListas extends JFrame{
         iniciarComponentes1();
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
-    
+
     private void iniciarComponentes1(){
         colocarPaneles1();
         colocarListas();
     }
-    
+
     private void colocarPaneles1(){
-        
+
         this.panel1=new JPanel();
         this.panel1.setLayout(null);
         this.getContentPane().add(this.panel1);
@@ -34,9 +34,9 @@ public class VentanaListas extends JFrame{
         modelo.addElement("Hola 2");
         modelo.addElement("Hola 3");
         JList lista=new JList(modelo);
-        
+
         lista.setBounds(20, 20, 200, 200);//posicion en x,y,largo en pixeles y ancho en pixeles
         this.panel1.add(lista);//Agregamos la lista al panel
     }
-    
+
 }
