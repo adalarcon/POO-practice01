@@ -17,6 +17,8 @@ public class MainPerron {
         ElBotonaso boton =new ElBotonaso();
         VentanasComboBox ejerComboBox=new VentanasComboBox();
         
+        //ey que pedo cachorros como estan
+
         Scanner entrada=new Scanner(System.in);
         int opc;
         System.out.println("1) iniciar un Frame");
