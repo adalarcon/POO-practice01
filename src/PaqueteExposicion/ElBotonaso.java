@@ -7,7 +7,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 //hola
-//Como estas?
+//Como estas? pdosofs
 //esto parece una org*a de codigo :(
 //oye no seas grosero
 
