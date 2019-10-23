@@ -113,7 +113,7 @@ public class MainPerron {
                 eje6.setVisible(true);
                 break;
             case 17:
-                //eje7.show();
+                eje7.show();
                 break;
             case 18:
                 eje8.run();
@@ -121,6 +121,8 @@ public class MainPerron {
             case 19:
                 eje9.setVisible(true);
                 break;
+            default:
+                System.out.println("Numero no reconocido");
         }
     }
     //minecra es vida, chiquitas
