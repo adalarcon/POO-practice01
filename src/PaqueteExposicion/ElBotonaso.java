@@ -9,6 +9,7 @@ import javax.swing.JTextField;
 //hola
 //Como estas?
 //esto parece una org*a de codigo :(
+//oye no seas grosero
 
 public class ElBotonaso extends JFrame {
     JPanel panel;
