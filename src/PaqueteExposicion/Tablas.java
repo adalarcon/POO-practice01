@@ -11,12 +11,15 @@ import javax.swing.JTable;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.table.DefaultTableModel;
 //El alnair parece gnomo
+
 public class Tablas extends JFrame{
     JPanel panel1;
     public Tablas(){
         //Cambie el tamaño
-        setSize(300,300);
-        //Cambie el titulo
+
+        setSize(450,350);
+        //Cambie el titulo 
+
         setTitle("EL titulo mas perron del mundo para una tabla");
         setLocationRelativeTo(null);
         iniciarComponentes1();
