@@ -10,7 +10,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.table.DefaultTableModel;
-//El alnair parece gigante
+//El alnair parece gnomo
 public class Tablas extends JFrame{
     JPanel panel1;
     public Tablas(){
