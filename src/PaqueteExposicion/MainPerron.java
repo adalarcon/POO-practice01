@@ -7,6 +7,7 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JSlider;
+import layoutypanel.*;
 
 public class MainPerron {
     public static void main(String[] args) {
@@ -16,7 +17,16 @@ public class MainPerron {
         Tablas tabla=new Tablas();
         ElBotonaso boton =new ElBotonaso();
         VentanasComboBox ejerComboBox=new VentanasComboBox();
-        
+        Panel ejemploPanel=new Panel();
+        EjemploBorderLayout eje1=new EjemploBorderLayout();
+        EjemploGridLayout eje2=new EjemploGridLayout();
+        EjemploFlowLayout eje3=new EjemploFlowLayout();
+        EjemploBoxLayout eje4=new EjemploBoxLayout();
+        EjemploCardLayout eje5=new EjemploCardLayout();
+        EjemploGridBagLayout eje6=new EjemploGridBagLayout();
+        EjemploGroupLayout eje7=new EjemploGroupLayout();
+        EjemploSpringLayout eje8=new EjemploSpringLayout();
+        EjemploScrollPaneLayout eje9=new EjemploScrollPaneLayout();
         //ey que pedo cachorros como estan
 
         Scanner entrada=new Scanner(System.in);
@@ -30,6 +40,16 @@ public class MainPerron {
         System.out.println("7) ComboBox");
         System.out.println("8) slider");
         System.out.println("9) Buton");
+        System.out.println("10) Panel");
+        System.out.println("11) BorderLayout");
+        System.out.println("12) GridLayout");
+        System.out.println("13) FlowLayout");
+        System.out.println("14) BoxLayout");
+        System.out.println("15) CardLayout");
+        System.out.println("16) GridBag Layout");
+        System.out.println("17) GroupLayout");
+        System.out.println("18) SpringLayout");
+        System.out.println("20) ScrollPaneLayout");
         System.out.println("Que quieres hacer?: ");
         opc=entrada.nextInt();
         switch(opc){
@@ -68,6 +88,38 @@ public class MainPerron {
                 break;
             case 9:
                 boton.setVisible(true);
+                break;
+            case 10:
+                ejemploPanel.setVisible(true);
+                break;
+            case 11:
+               eje1.f.setVisible(true);
+                break;
+            case 12:
+                eje2.f1.setVisible(true);
+                break;
+            case 13:
+                eje3.f3.setVisible(true);
+                break;
+            case 14:
+                eje4.f4.setVisible(true);
+                break;
+            case 15:
+                eje5.setSize(400,400);  
+                eje5.setVisible(true);  
+                eje5.setDefaultCloseOperation(EXIT_ON_CLOSE);  
+                break;
+            case 16:
+                eje6.setVisible(true);
+                break;
+            case 17:
+                //eje7.show();
+                break;
+            case 18:
+                eje8.run();
+                break;
+            case 19:
+                eje9.setVisible(true);
                 break;
         }
     }
