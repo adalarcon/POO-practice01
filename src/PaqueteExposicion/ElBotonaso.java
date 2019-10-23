@@ -8,6 +8,7 @@ import javax.swing.JTextField;
 
 //hola
 //Como estas?
+//esto parece una org*a de codigo :(
 
 public class ElBotonaso extends JFrame {
     JPanel panel;
