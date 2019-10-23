@@ -16,7 +16,7 @@ public class Tablas extends JFrame{
     public Tablas(){
         //Cambie el tamaño
         setSize(300,300);
-        //Cambie el titulo 
+        //Cambie el titulo
         setTitle("EL titulo mas perron del mundo para una tabla");
         setLocationRelativeTo(null);
         iniciarComponentes1();
