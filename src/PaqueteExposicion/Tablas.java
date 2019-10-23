@@ -15,7 +15,8 @@ public class Tablas extends JFrame{
     JPanel panel1;
     public Tablas(){
         setSize(500,500);
-        setTitle("EL titulo perron que le vas a poner a tu ventana");
+        //Cambie el titulo 
+        setTitle("EL titulo mas perron del mundo para una tabla");
         setLocationRelativeTo(null);
         iniciarComponentes1();
         setDefaultCloseOperation(EXIT_ON_CLOSE);
