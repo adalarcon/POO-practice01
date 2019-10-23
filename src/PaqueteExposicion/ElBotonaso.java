@@ -9,8 +9,13 @@ import javax.swing.JTextField;
 //hola
 //Como estas? pdosofs
 //esto parece una org*a de codigo :(
+//oye no seas grosero
 
 public class ElBotonaso extends JFrame {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     JPanel panel;
     public ElBotonaso(){
         setSize(500,500);

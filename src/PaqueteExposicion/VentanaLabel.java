@@ -1,6 +1,8 @@
 
 package PaqueteExposicion;
 
+//Buenos días muchachos
+
 import java.awt.Color;
 import javax.swing.JFrame;
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
@@ -25,5 +27,5 @@ public class VentanaLabel extends JFrame{
         //etiqueta.setBounds(10, 10, 200, 200);//Este metodo setter nos ayuda a colocar la etiqueta donde quieras
         panel.add(etiqueta);
     }
-    
+
 }
