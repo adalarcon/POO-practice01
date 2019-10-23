@@ -10,9 +10,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.table.DefaultTableModel;
-
-// esta linea es de adalarcon
-
+//El alnair parece gigante
 public class Tablas extends JFrame{
     JPanel panel1;
     public Tablas(){
