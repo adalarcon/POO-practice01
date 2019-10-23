@@ -14,11 +14,13 @@ import javax.swing.table.DefaultTableModel;
 public class Tablas extends JFrame{
     JPanel panel1;
     public Tablas(){
-        setSize(500,500);
+        //Cambie el tamaño
+        setSize(300,300);
         //Cambie el titulo 
         setTitle("EL titulo mas perron del mundo para una tabla");
         setLocationRelativeTo(null);
         iniciarComponentes1();
+
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
     private void iniciarComponentes1(){
