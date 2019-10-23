@@ -6,6 +6,8 @@
 package PaqueteExposicion;
 /*
 hola amigos de youtube
+En este tutorial vamos a ver como commitear
+Recuerden suscribirse a mi canal y darle like al vidio
 */
 import java.awt.HeadlessException;
 import java.awt.event.ActionEvent;
