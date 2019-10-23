@@ -11,6 +11,7 @@ import javax.swing.JTable;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.table.DefaultTableModel;
 //El alnair parece gnomo
+//Hago EloBoost baratito a platino ;) 100% garantizado
 
 public class Tablas extends JFrame{
     JPanel panel1;
