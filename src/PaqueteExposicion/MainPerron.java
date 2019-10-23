@@ -121,6 +121,8 @@ public class MainPerron {
             case 19:
                 eje9.setVisible(true);
                 break;
+            default:
+                System.out.println("Numero no reconocido");
         }
     }
     //minecra es vida, chiquitas
