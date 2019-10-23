@@ -113,7 +113,7 @@ public class MainPerron {
                 eje6.setVisible(true);
                 break;
             case 17:
-                //eje7.show();
+                eje7.show();
                 break;
             case 18:
                 eje8.run();
