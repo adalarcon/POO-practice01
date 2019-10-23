@@ -12,6 +12,10 @@ import javax.swing.JTextField;
 //oye no seas grosero
 
 public class ElBotonaso extends JFrame {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     JPanel panel;
     public ElBotonaso(){
         setSize(500,500);
