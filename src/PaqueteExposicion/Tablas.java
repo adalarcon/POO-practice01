@@ -11,6 +11,8 @@ import javax.swing.JTable;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.table.DefaultTableModel;
 
+// esta linea es de adalarcon
+
 public class Tablas extends JFrame{
     JPanel panel1;
     public Tablas(){
