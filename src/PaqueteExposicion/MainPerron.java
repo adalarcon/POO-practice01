@@ -131,9 +131,4 @@ public class MainPerron {
     }
 }
 
-<<<<<<< HEAD
 //WOOOW
-=======
-
-//WOOOW
->>>>>>> 5763a9f8701870bb9c26dd84940a15ea864ab7ab
